@@ -185,7 +185,7 @@ async def hunterusername(event):
         try:
             ch = await eighthon(
                 functions.channels.CreateChannelRequest(
-                    title="حسناء سيتم صيد نوع {choice} ",
+                    title="صيد معرفات سداسي",
                     about="تم الصيد يوزر سداسي - Catch hexagonal ID",
                 )
             )
